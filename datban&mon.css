@@ -1,0 +1,314 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html
+{
+    background-color:lightsalmon;
+}
+#negbar a
+{
+   
+    padding: 35px;
+    font-family:cursive;
+    font-weight: bolder;   
+    text-decoration: none;
+}
+#Negbar a:visited
+{
+    color: white;
+}
+#negbar a:hover
+{
+    background-color:antiquewhite;
+    border-radius: 105px;
+   border-bottom-style:groove;
+    text-decoration:overline;
+}
+#negbar
+{
+background-color: whitesmoke;
+    text-align:left;
+    margin-left: -30px;
+    padding: 30px;
+}
+#negbar a:visited
+{
+    color: black;
+    
+}
+#selectbar 
+{
+    
+    background-color: white;
+    width: 100%;
+    height: 50px;
+}
+#selectbar select
+{
+    float: right;
+    width: 200px;
+    height: 50px;
+    font-family: cursive;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+#selectbar select option
+{
+    text-align: center;
+
+}
+.Themonan
+{
+    width: 300px;
+    height: 300px;
+    background-color:bisque;
+    margin:30px;
+    float:left;
+}
+#selectbar input
+{
+    width: 150px; float: right; height: 50px;
+    font-family: cursive;
+    background-color: white;
+    border-radius: 50px;
+
+}
+#selectbar input:hover
+{
+    background-color:burlywood;
+}
+.Themonan img
+{
+    width: 300px;
+    height: 200px;
+}
+.Themonan p
+{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.Themonan p img
+{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+
+}
+.Themonan p a:hover
+{
+cursor: pointer;
+}
+.Themonan p img
+{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+
+}
+.hop img
+{
+    width: 300px;
+    height: 200px;
+}
+.hop p
+{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.hop p img
+{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+
+}
+.hop p a:hover
+{
+cursor: pointer;
+}
+.hop p img
+{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+
+}
+.hop div div
+{
+    width: 300px;
+    height: 300px;
+    background-color:bisque;
+    margin:30px;
+    float:left;
+}
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
+  #booking-status {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+  }*/
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #bookingForm, #confirmation {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  /*-----------*/
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+#booking-form, #confirmation, #success-message {
+    display: none;
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="tel"], input[type="email"], input[type="date"], input[type="number"], select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#confirmation-details {
+    margin-bottom: 20px;
+}
+
+#success-message p {
+    margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.nen
+{
+  background-color: white;
+}
