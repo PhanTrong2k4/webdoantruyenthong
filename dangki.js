@@ -5,6 +5,25 @@ function dangki()
     var email = document.getElementById("email").value;
     var sdt = document.getElementById("sdt").value;
     var gender = document.querySelector('input[name="gender"]:checked').value;
+    if (password1 !== password2) {
+        alert("Mật khẩu và xác nhận mật khẩu không giống nhau!");
+        return;
+    }
+
+    var existingUserData = localStorage.getItem(tendn);
+    if (existingUserData) {
+        alert("Tên đăng nhập đã được sử dụng!");
+        return;
+    }
+
+
+    for (var key in localStorage) {
+        var userData = JSON.parse(localStorage.getItem(key));
+        if (userData && userData.email === email) {
+            alert("Email đã được sử dụng!");
+            return;
+        }
+    }
 
     var user = {
         "tendn": tendn,

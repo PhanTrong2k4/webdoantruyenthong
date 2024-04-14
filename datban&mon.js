@@ -150,7 +150,7 @@ document.addEventListener('DOMContentLoaded', function() {
     showBookingHistory();
     // Reset form
     bookingDetailsForm.reset();
-  });
+  }); 
 });
 
 
