@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="baitapcuoikyweb.css">
     <script lang="text/Javascript" src="baitapcuoikyweb.js"></script>
+    <link rel="stylesheet" href="chatbox.css">
+    <script lang="text/Javascript" src="chatbox.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -18,6 +20,22 @@
     </div>
     <H1>TINH HOA ẨM THỰC VIỆT NAM</H1>
     <p><i>"Những món ăn truyền thống của dân tộc"</i></p>
+    <div class="hopthoaichat">
+    <img id="iconchatbox"onclick="hien()" ondblclick="an()" src="anhweb/chat_FILL0_wght400_GRAD0_opsz24.png">
+    <div class="hopchatbox">
+        <p >Tin nhắn</p>
+        <div class="khungchatbox">  
+                <p class="chatht">Bạn cần hỗ trợ gì không ?</p>
+                <ul class="chatuser">
+                    <li onclick="luachon1()">Cửa hàng hoạt động lúc mấy giờ ?</li>
+                    <li onclick="luachon2()">Địa chị cửa hàng ở đâu ?</li>
+                    <li onclick="luachon3()">Liên hệ nhân viên quán</li>
+                </ul>
+                <p class="chatht" id="dongchatht">.......</p>
+                <ul class="chatuser1"></ul>
+        </div>
+    </div>
+    </div>
     <p></p>
     <hr>
     <div id="khunggioithieu">
@@ -52,5 +70,6 @@
        </ul>
     </div>
     
+
 </body>
 </html>
