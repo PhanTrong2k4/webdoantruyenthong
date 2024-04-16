@@ -4,9 +4,9 @@
 }
 html
 {
-    background: linear-gradient(50deg,orange,lightsalmon,black);
+    background: linear-gradient(160deg,orange,lightsalmon,darkred);
     background-size: 300% 300%;
-    animation: colorBG 4s ease-in-out infinite;
+    animation: colorBG 5s ease-in-out infinite;
 }
 @keyframes colorBG
 {
