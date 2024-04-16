@@ -23,10 +23,6 @@ html
     font-weight: bolder;   
     text-decoration: none;
 }
-#Negbar a:visited
-{
-    color: white;
-}
 #negbar a:hover
 {
     background-color:antiquewhite;
