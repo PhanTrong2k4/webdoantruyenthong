@@ -1,0 +1,47 @@
+.khungchitietsp
+{
+    width: 600px;
+    height: 500px;
+    background-color:bisque;
+    position: sticky;
+    bottom: 1%;
+    left: 30%;
+    font-family: cursive;
+    
+}
+#hopchitiet1
+{
+    display: none;
+}
+#hopchitiet2
+{
+    display: none;
+}
+#hopchitiet3
+{
+    display: none;
+}
+#hopchitiet4
+{
+    display: none;
+}
+.khungchitietsp img
+{
+    width: 300px;
+}
+.khungchitietsp .giatien
+{
+    float: right;
+    margin: 10% 20% 0 0;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.khungchitietsp hr
+{
+    border-width: 10px;
+    border: inset saddlebrown;
+}
+.khungchitietsp p
+{
+   
+}

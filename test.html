@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="chitietsp.css">
     <script src="https://kit.fontawesome.com/419edb69db.js" crossorigin="anonymous"></script>
+    <script lang="text/Javascript" src="chitietsp.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -21,7 +23,6 @@
     
     </div>
     <div id="selectbar">
-        
         <select id="thechon">
             <option  value="Chonmonan">Tất cả</option>
             <option value="Pho">Phở</option>
@@ -41,25 +42,24 @@
         <div class="container">
             <div class="product-items">
                 <div class="product-item">
-                    <img src="anhweb/Bun-Rieu-07.jpg" alt="">
+                    <img src="anhweb/Bun-Rieu-07.jpg" alt="" onclick="hien()" style="cursor: pointer;">
                     <div class="product-item-text">
                         <p><span>35.000</span><sup>đ<sup></p>
                             <h1 style="font-weight: bold; font-size: 25px;">Bún riêu cua</h1>
-                            
                     </div>
                     <button>Thêm vào giỏ hàng</button>
                 </div>
                 
                 <div class="product-item">
-                    <img src="anhweb/bundacbiet1.jfif" alt="">
+                    <img src="anhweb/bundacbiet1.jfif" alt="" onclick="hien1()" style="cursor: pointer;">
                     <div class="product-item-text">
-                        <p><span>35.000</span><sup>đ</sup></p>
+                        <p><span>55.000</span><sup>đ</sup></p>
                             <h1 style="font-weight: bold; font-size: 25px; padding-top: 10px;">Bún đặc biệt</h1>
                     </div>
                     <button>Thêm vào giỏ hàng</button>
                 </div>
                 <div class="product-item">
-                    <img src="anhweb/bundau.jfif" alt="">
+                    <img src="anhweb/bundau.jfif" alt="" onclick="hien2()" style="cursor: pointer;">
                     <div class="product-item-text">
                         <p><span>65.000</span><sup>đ<sup></p>
                             <h1 style="font-weight: bold; font-size: 25px;">Bún đậu</h1>
@@ -67,7 +67,7 @@
                     <button>Thêm vào giỏ hàng</button>
                 </div>
                 <div class="product-item">
-                    <img src="anhweb/BUN-THIT-NUONG-FROM-SAI-GON.jpg" alt="">
+                    <img src="anhweb/BUN-THIT-NUONG-FROM-SAI-GON.jpg" alt="" onclick="hien3()" style="cursor: pointer;">
                     <div class="product-item-text">
                         <p><span>25.000</span><sup>đ<sup></p>
                             <h1 style="font-weight: bold; font-size: 25px;">Bún thịt nướng</h1>
@@ -130,6 +130,7 @@
                     <button>Thêm vào giỏ hàng</button>
                 </div>
                 
+                
             </div>
         </div>
     </section>
@@ -173,5 +174,64 @@
         </form>
     </section>
     <script src="test.js"></script>
+    <div class="khungchitietsp" id="hopchitiet1">
+        <img src="anhweb/Bun-Rieu-07.jpg">
+        <p class="giatien">35.000<sup>đ</sup><span style="margin-left: 60%; margin-bottom: 60%; cursor: pointer;" onclick="an()">X</span></p>
+        <h1 style="margin-left: 10%;">Bún riêu cua</h1>
+        <hr>
+        <p><span style="font-size: 20px; font-weight: bold;">Nguyên liệu</span><br>
+            Cua đồng (thịt cua giã nhuyễn và gạch cua);
+            Cà chua;
+            Chất tạo vị chua như quả dọc;
+            Hành khô, hành tươi;
+            Đậu phụ
+            Các loại rau sống: tía tô, kinh giới, hoa chuối, rau muống chẻ
+            Giấm bỗng
+            Mắm tôm</p>
+        <p> <span style="font-size: 20px; font-weight: bold;">Nguồn gốc</span><br>Bún riêu cua là một món ăn truyền thống Việt Nam, có nguồn gốc từ vùng đồng bằng sông Hồng của Việt Nam, được biết đến rộng rãi trong nước và quốc tế. Món ăn này gồm bún (bún rối hoặc bún lá) và 'riêu cua'. Riêu cua là canh chua được nấu từ gạch cua, thịt cua giã và lọc cùng với quả dọc, cà chua,[2] mỡ nước, giấm bỗng, nước mắm, muối, hành hoa. Bún riêu thường thêm chút mắm tôm để tăng thêm vị đậm đà, thường ăn kèm với rau sống. Đây là món ăn có vị chua thanh, ăn vào mùa hè rất mát nên được người Việt rất ưa thích. Trên các đường phố của Việt Nam có rất nhiều hàng quán bán bún riêu.</p>
+    </div> 
+    <div class="khungchitietsp" id="hopchitiet2">
+        <img src="anhweb/bundacbiet1.jfif" style="height: 200px;" >
+        <p class="giatien">55.000<sup>đ</sup><span style="margin-left: 60%; margin-bottom: 60%; cursor: pointer;" onclick="an1()">X</span></p>
+        <h1 style="margin-left: 10%;">Bún đặc biệt</h1>
+        <hr>
+        <p><span style="font-size: 20px; font-weight: bold;">Nguyên liệu</span><br>
+            Cua đồng (thịt cua giã nhuyễn và gạch cua),Cà chua,Chất tạo vị chua như quả dọc;Hành khô, hành tươi; Đậu phụ Các loại rau sống: tía tô, kinh giới, hoa chuối, rau muống chẻ,Giấm bỗng,Mắm tôm,Hột vịt lôn</p>
+        <p> <span style="font-size: 20px; font-weight: bold;">Nguồn gốc</span><br>Đây là món bún đặc biệt của quán được những đàu bếp thiết kế và làm nên tạo ra hương vị đặc trưng của những gia vị, phụ gia truyền thống của Việt Nam</p> 
+    </div> 
+    <div class="khungchitietsp" id="hopchitiet3">
+        <img src="anhweb/bundau.jfif" style="height: 200px;" >
+        <p class="giatien">55.000<sup>đ</sup><span style="margin-left: 60%; margin-bottom: 60%; cursor: pointer;" onclick="an2()">X</span></p>
+        <h1 style="margin-left: 10%;">Bún đậu mắm</h1>
+        <hr>
+        <p><span style="font-size: 20px; font-weight: bold;">Nguyên liệu</span><br>
+            1,5kg bún lá
+6-7 bìa đậu phụ
+500g thịt chân giò
+250g chả cốm
+Mắm tôm
+Đường
+Bột ngọt
+Rượu trắng
+Ớt tươi
+Quất hoặc chanh
+Rau thơm ăn kèm: kinh giới, tía tô, húng...</p>
+        <p> <span style="font-size: 20px; font-weight: bold;">Nguồn gốc</span><br>Món ăn Bún đậu mắm tôm là món ăn đơn giản, dân dã trong ẩm thực Việt Nam và có xuất xứ từ Hà Nội. Đây là món thường được dùng như bữa ăn nhẹ, ăn chơi. Thành phần chính gồm có bún tươi, đậu hũ chiên vàng, chả cốm,...</p> 
+    </div> 
+    <div class="khungchitietsp" id="hopchitiet4">
+        <img src="anhweb/BUN-THIT-NUONG-FROM-SAI-GON.jpg" style="height: 200px;" >
+        <p class="giatien">55.000<sup>đ</sup><span style="margin-left: 60%; margin-bottom: 60%; cursor: pointer;" onclick="an3()">X</span></p>
+        <h1 style="margin-left: 10%;">Bún thịt nướng</h1>
+        <hr>
+        <p><span style="font-size: 20px; font-weight: bold;">Nguyên liệu</span><br>
+            2-2,5kg bún tươi
+            1,2kg thịt heo
+            4 nhánh sả
+            10 tép tỏi
+            3 củ hành khô
+            1 quả ớt
+            Gia vị: Muối hạt, nước tương, nước mắm, bột ngọt, đường, dầu ăn, dầu hào, tiêu xay, nước màu (nước hàng)</p>
+        <p> <span style="font-size: 20px; font-weight: bold;">Nguồn gốc</span><br>Bún thịt nướng là một món ăn món ăn có nguồn gốc ở miền Nam Việt Nam, về sau đã phổ biến lan rộng tại nhiều nơi trên cả nước. Mỗi nơi đều có thể có cho mình một hương vị đặc trưng riêng tùy theo khẩu vị từng nơi. Món bún này có thể dùng làm điểm tâm, bữa chính hay bữa phụ đều phù hợp. Yêu cầu của món Bún thịt nướng là thịt được nướng vàng đều, có vị đậm đà cùng hương thơm của sả và vừng; nước mắm chua ngọt vừa ăn; và các loại rau dùng kèm đa dạng.</p> 
+    </div> 
 </body>
 </html>
