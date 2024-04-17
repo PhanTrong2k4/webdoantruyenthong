@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="menu.css">
+    <script type="text/javascript" src="menu.js"></script>
+    <script type="text/javascript" src="giohangthu.js"></script>
+</head>
+<body>
+    <div id="negbar">
+        <a href="baitapcuoikyweb.html">Trang chủ</a>
+        <a href="dangnhap.html" target="_blank">Đăng Nhập</a>
+        <a href="dangki.html" target="_blank">Đăng Ký</a>
+        <a href="menu.html">Menu</a>
+        <a href="datban&mon.html">Đặt bàn</a>
+        <a href="www.facebook.com" target="_blank"><img src="anhweb/pngimg.com - facebook_logos_PNG19757.png" style="width: 30px; height: 30px;"></a>
+        </div>
+    <div id="selectbar">
+        
+        <select id="thechon">
+            <option  value="Chonmonan">Tất cả</option>
+            <option value="Pho">Phở</option>
+            <option value="Bun">Bún </option>
+            <option value="Banhmy">Bánh mỳ</option>
+        </select>
+        <select id="chongiaTien">
+            <option>Mọi loại giá </option>
+            <option value="tamgia1"> 20k -> 50k</option>
+            <option value="tamgia2">50k -> 70k</option>
+        </select>
+        <form>
+            <input type="button" value="Tìm kiếm" onclick="Timmonan()">
+        </form>
+    </div>
+    <div class="hop">
+    <div id="Bun">
+        <div  class="tamgia1">
+            <img src="anhweb/Bun-Rieu-07.jpg">
+            <p>Bún riêu cua</p>
+            <p style="color:red;">35k<img src="anhweb/love-hand-drawn-heart-symbol-outline.png"><span onclick="doiso()"id="daylaso" ondblclick="doiso2()">1200</span></p>
+            <a href="#"><img src="anhweb/shopping-cart-icon-29081.png" style="width: 30px; height: 30px; margin-left: 135px;"></a>
+        </div>
+        <div class="tamgia1">
+            <img src="/anhweb/bunrieuoc.jfif">
+            <p>Bún riêu ốc</p>
+            <p style="color:red;">35k<span><img src="anhweb/love-hand-drawn-heart-symbol-outline.png">1200</span></p>
+            <a href="#"><img src="anhweb/shopping-cart-icon-29081.png" style="width: 30px; height: 30px; margin-left: 135px;"></a>
+        </div>
+        <div  class="tamgia1">
+            <img src="anhweb/BUN-THIT-NUONG-FROM-SAI-GON.jpg">
+            <p>Bún thịt nướng</p>
+            <p style="color:red;">35k<span><img src="anhweb/love-hand-drawn-heart-symbol-outline.png">1200</span></p>
+            <a href="#"><img src="anhweb/shopping-cart-icon-29081.png" style="width: 30px; height: 30px; margin-left: 135px;"></a>
+        </div>
+        <div  class="tamgia2">
+            <img src="anhweb/bundau.jfif">
+            <p>Bún đậu</p>
+            <p style="color:red;">65k<span><img src="anhweb/love-hand-drawn-heart-symbol-outline.png">1200</span></p>
+            <a href="#"><img src="anhweb/shopping-cart-icon-29081.png" style="width: 30px; height: 30px; margin-left: 135px;"></a>
+        </div>
+        <div  class="tamgia1">
+            <img src="anhweb/OIP.jfif">
+            <p>Bún bò huế</p>
+            <p style="color:red;">35k<span><img src="anhweb/love-hand-drawn-heart-symbol-outline.png">1200</span></p>
+            <a href="#"><img src="anhweb/shopping-cart-icon-29081.png" style="width: 30px; height: 30px; margin-left: 135px;"></a>
+        </div>
+        <div  class="tamgia2">
+            <img src="anhweb/bundacbiet1.jfif">
+            <p>Bún đặc biệt</p>
+            <p style="color:red;">65k<span><img src="anhweb/love-hand-drawn-heart-symbol-outline.png">1200</span></p>
+            <a href="#"><img src="anhweb/shopping-cart-icon-29081.png" style="width: 30px; height: 30px; margin-left: 135px;"></a>
+        </div>
+    </div>
+    <div  id="Pho" >
+        <div  class="tamgia2">
+            <img src="anhweb/VNO_Pho1.jpg">
+            <p>Phở bò</p>
+            <p style="color:red;">55k <span><img src="anhweb/love-hand-drawn-heart-symbol-outline.png">1200</span></p>
+            <a href="#"><img src="anhweb/shopping-cart-icon-29081.png" style="width: 30px; height: 30px; margin-left: 135px;"></a>
+        </div>
+        <div  class="tamgia1">
+            <img src="anhweb/phoga.jfif">
+            <p>Phở gà</p>
+            <p style="color:red;">35k <span><img src="anhweb/love-hand-drawn-heart-symbol-outline.png">1200</span></p>
+            <a href="#"><img src="anhweb/shopping-cart-icon-29081.png" style="width: 30px; height: 30px; margin-left: 135px;"></a>
+        </div>
+        <div class="tamgia1">
+            <img src="anhweb/phochay.jpg" >
+            <p>Phở chay</p>
+            <p style="color:red;">35k  <span><img src="anhweb/love-hand-drawn-heart-symbol-outline.png">1200</span></p>
+            <a href="#"><img src="anhweb/shopping-cart-icon-29081.png" style="width: 30px; height: 30px; margin-left: 135px;"></a>
+        </div>
+        <div class="tamgia1">
+            <img src="anhweb/phokho.jpg">
+            <p>Phở khô</p>
+            <p style="color:red;">35k <span><img src="anhweb/love-hand-drawn-heart-symbol-outline.png">1200</span></p>
+            <a href="#"><img src="anhweb/shopping-cart-icon-29081.png" style="width: 30px; height: 30px; margin-left: 135px;"></a>
+        </div>
+    </div>
+    <div  id="Banhmy" >
+        <div class="tamgia1">
+            <img src="anhweb/banhmy.jfif">
+            <p>Bánh mỳ</p>
+            <p style="color:red;">25k <span><img src="anhweb/love-hand-drawn-heart-symbol-outline.png">1200</span></p>
+            <a href="#"><img src="anhweb/shopping-cart-icon-29081.png" style="width: 30px; height: 30px; margin-left: 135px;"></a>
+        </div>
+        <div class="tamgia1">
+            <img src="anhweb/banhmyxaxiu.jfif">
+            <p>Bánh mỳ xá xíu</p>
+            <p style="color:red;">35k <span><img src="anhweb/love-hand-drawn-heart-symbol-outline.png">1200</span></p>
+            <a href="#"><img src="anhweb/shopping-cart-icon-29081.png" style="width: 30px; height: 30px; margin-left: 135px;"></a>
+        </div>
+        <div class="tamgia1">
+            <img src="anhweb/banhmythitnuong.jfif">
+            <p>Bánh mỳ thịt nướng</p>
+            <p style="color:red;">35k <span><img src="anhweb/love-hand-drawn-heart-symbol-outline.png">1200</span></p>
+            <a href="#"><img src="anhweb/shopping-cart-icon-29081.png" style="width: 30px; height: 30px; margin-left: 135px;"></a>
+        </div>
+        <div class="tamgia1">
+            <img src="anhweb/banhmythitnguoi.jfif">
+            <p>Bánh mỳ thịt nguội</p>
+            <p style="color:red;">35k <span><img src="anhweb/love-hand-drawn-heart-symbol-outline.png">1200</span></p>
+            <a href="#"><img src="anhweb/shopping-cart-icon-29081.png" style="width: 30px; height: 30px; margin-left: 135px;"></a>
+        </div>
+        <div class="tamgia2">
+            <img src="anhweb/banhmydacbiet.jfif">
+            <p>Bánh mỳ đặc biệt</p>
+            <p style="color:red;">65k <span><img src="anhweb/love-hand-drawn-heart-symbol-outline.png">1200</span></p>
+            <a href="#"><img src="anhweb/shopping-cart-icon-29081.png" style="width: 30px; height: 30px; margin-left: 135px;"></a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

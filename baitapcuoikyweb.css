@@ -14,7 +14,7 @@ html
     50%{background-position: 100% 50%;}
     100%{background-position: 0 50%;}
 }
-#negbar a
+#navbar a
 {
    
     padding: 35px;
@@ -23,7 +23,7 @@ html
     font-weight: bolder;   
     text-decoration: none;
 }
-#negbar a:hover
+#navbar a:hover
 {
     background-color:antiquewhite;
     border-radius: 105px;
@@ -31,7 +31,7 @@ html
    border-bottom-style:groove;
     text-decoration:overline;
 }
-#negbar
+#navbar
 {
 background-color: whitesmoke;
     text-align:left;

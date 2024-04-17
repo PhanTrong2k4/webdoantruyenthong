@@ -99,3 +99,58 @@ cartbtn.addEventListener("click",function(){
 })
 
 
+// --------------------------------------------------
+function filterProducts() {
+    var selectedPrice = document.getElementById("chongiaTien").value;
+    var selectedCategory = document.getElementById("thechon").value;
+    var productItems = document.querySelectorAll(".product-item");
+
+    productItems.forEach(function(item) {
+        var price = parseFloat(item.querySelector(".product-item-text span").innerText);
+        var category = item.getAttribute("data-category");
+
+        var priceInRange = true;
+        if (selectedPrice !== "Mọi loại giá") {
+            if (selectedPrice === "tamgia1" && !(price >= 20 && price <= 50)) {
+                priceInRange = false;
+            } else if (selectedPrice === "tamgia2" && !(price > 50 && price <= 70)) {
+                priceInRange = false;
+            }
+        }
+
+        var categoryMatch = true;
+        if (selectedCategory !== "Chonmonan" && selectedCategory !== category) {
+            categoryMatch = false;
+        }
+
+        if (priceInRange && categoryMatch) {
+            item.style.display = "block";
+        } else {
+            item.style.display = "none";
+        }
+    });
+}
+
+document.getElementById("chongiaTien").addEventListener("change", filterProducts);
+document.getElementById("thechon").addEventListener("change", filterProducts);
+
+
+// // Lắng nghe sự kiện khi người dùng thay đổi loại món ăn
+// document.getElementById("select-category").addEventListener("change", filterFood);
+
+// function filterFood() {
+//     var category = document.getElementById("select-category").value; // Lấy giá trị của loại món ăn được chọn
+
+//     var productItems = document.querySelectorAll(".product-item"); // Chọn tất cả các sản phẩm
+
+//     productItems.forEach(function(item) {
+//         var foodType = item.getAttribute("data-food-type"); // Lấy loại món ăn của từng sản phẩm
+
+//         if (category === "all" || category === foodType) { // Hiển thị sản phẩm nếu loại món ăn được chọn là "Tất cả" hoặc trùng với loại của sản phẩm
+//             item.style.display = "block";
+//         } else {
+//             item.style.display = "none"; // Ẩn sản phẩm nếu không trùng khớp
+//         }
+//     });
+// }
+
