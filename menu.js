@@ -43,8 +43,7 @@ function Timmonan()
     {
         tamgia1[i].style.display = "block";
     }
-    
-
+    }
     }
     if(x=="tamgia2")
     {
@@ -57,23 +56,19 @@ function Timmonan()
         tamgia2[i].style.display = "block";
     }
     }
-    else
+     if(x=="moiloaigia")
     {
-        tamgia2[i].style.display = "block";
-        tamgia1[i].style.display = "block";
+        
+        for(let i =0;i<tamgia1.length;i++)
+        {
+            tamgia1[i].style.display = "block";
+        }
+        for(let i =0;i<tamgia2.length;i++)
+        {
+            tamgia2[i].style.display = "block";
+        }
     }
 }
-}
 
-//Them tim cho mon an trong menu
-function doiso()
-{
-    var s = parseInt(document.getElementById("daylaso").value);
-    document.getElementById("daylaso").innerHTML="1201";
-}
-function doiso2()
-{
-    var s = parseInt(document.getElementById("daylaso").value);
-    document.getElementById("daylaso").innerHTML="1200";
-}
+
 //kiem tra menu theo gia tien

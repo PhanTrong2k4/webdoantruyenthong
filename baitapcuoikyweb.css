@@ -105,7 +105,7 @@ a:visited
     margin-left: 20%;
     background-color: lightsalmon;
     height: 600px;
-    animation: doianh 5s ;
+    animation: doianh 10s ;
     animation-iteration-count: infinite;
     animation-direction:alternate-reverse;
     
@@ -114,8 +114,11 @@ a:visited
 @keyframes doianh
 {
     0%{background-image: url(anhweb/banhmy.jfif); background-size: cover;}
-    50%{background-image: url(anhweb/bundau.jfif); background-size: cover;;}
-    100%{background-image: url(anhweb/banhmydacbiet.jfif); background-size: cover;;}
+    20%{background-image: url(anhweb/BUN-THIT-NUONG-FROM-SAI-GON.jpg); background-size: cover;}
+    40%{background-image: url(anhweb/bunrieuoc.jfif); background-size: cover;}
+    60%{background-image: url(anhweb/phochay.jpg); background-size: cover;}
+    80%{background-image: url(anhweb/OIP.jfif); background-size: cover;}
+    100%{background-image: url(anhweb/banhmydacbiet.jfif); background-size: cover;}
 }
 .arrow
 {

@@ -91,16 +91,16 @@ function togglePassword1() {
 
     if (passwordField.type === "password") {
         passwordField.type = "text";
-        toggleButton.textContent = "Ẩn mật khẩu";
+        
     } else {
         passwordField.type = "password";
-        toggleButton.textContent = "Hiện mật khẩu";
+        
     }
 }
 
 function togglePassword2() {
     var passwordField = document.getElementById("password2");
-    var toggleButton = document.getElementById("toggleButton");
+    
 
     if (passwordField.type === "password") {
         passwordField.type = "text";
