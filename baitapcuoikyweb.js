@@ -1,10 +1,10 @@
 function Chaynguocanh()
 {
-    document.getElementById("gioithieu").style.animation = "doianh 4s infinite reverse";
+    document.getElementById("gioithieu").style.animation = "doianh 10s infinite reverse";
     
 }
 function Chaynguocanh2()
 {
-    document.getElementById("gioithieu").style.animation=" doianh 4s infinite alternate"
+    document.getElementById("gioithieu").style.animation=" doianh 10s infinite alternate"
     
 }

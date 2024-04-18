@@ -52,36 +52,8 @@
 {
     background-color:burlywood;
 }
-.Themonan img
-{
-    width: 300px;
-    height: 200px;
-}
-.Themonan p
-{
-    text-align: center;
-    font-family: cursive;
-    font-weight: bolder;
-    font-size: 20px;
-}
-.Themonan p img
-{
-    width: 20px;
-    height: 20px;
-    margin-left: 10px;
 
-}
-.Themonan p a:hover
-{
-cursor: pointer;
-}
-.Themonan p img
-{
-    width: 20px;
-    height: 20px;
-    margin-left: 10px;
 
-}
 .hop
 {
     margin-left: 7%;
